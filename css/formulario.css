@@ -1,0 +1,59 @@
+.form{
+  width: 35%;
+  height: 40%;
+  margin: 10% 30%;
+  box-shadow: -4px 8px 35px #000;
+  padding: 2% 4%;
+  }
+.form h6{
+  color: #c8c8c8;
+  font-size: 15px;
+  margin: 3% 0% 2% 2%;
+}
+input[type=text] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 2%;
+  box-sizing: border-box;
+  transition: width 0.4s ease-in-out;
+  border: none;
+  border-bottom: 2px solid #196ba2;
+/*Mudar a porcentagem width: dos inputs*/
+}
+input[type=Mensage] {
+  width: 70%;
+  height: 120px;
+  padding: 12px 20px;
+  margin: 8px 2%;
+  box-sizing: border-box;
+  transition: width 0.4s ease-in-out;
+  border: none;
+  border-bottom: 2px solid #196ba2;
+
+}
+textarea{
+  width: 70%;
+  height: 120px;
+  padding: 12px 20px;
+  margin: 8px 2%;
+  box-sizing: border-box;
+  transition: width 0.4s ease-in-out;
+  border: none;
+  border-bottom: 2px solid #196ba2;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+input[type=submit]{
+  background-color: #196ba2;
+  width: 45%;
+  height: 45px;
+  margin-left: 2%;
+  font-family: 'Helvetica Neue', "Helvetica", sans-serif;
+  color: ghostwhite;
+  font-size: 20px;
+  font-weight: 800px;
+  padding: 2% 2%;
+}

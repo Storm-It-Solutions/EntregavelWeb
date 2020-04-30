@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang=pt-br dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/cabecalho.css" type="text/css">
+    <link rel="stylesheet" href="../css/corpo_da_pagina.css" type="text/css">
+    <link rel="stylesheet" href="../css/rodape.css">
+    <link rel="stylesheet" href="../css/formulario.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="cabecalho">
+        <figure class="logo">
+          <a href="#"><img src="../img/logos/logo.png" alt="logo"></a>
+        </figure>
+        <nav class="menu">
+          <ul>
+            <li><a href="#">PT <small>▼</small></a></li>
+            <li><a href="#">Fazer login</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="corpo">
+        <section>
+          <div class="form">
+            <h6>Nome:</h6>
+            <input type="text" name="nome" class="inputavel" value="" required="true" aria-label="Nome: Gegivaldo da Silva Pinheiro" pattern="[A-Za-z]"placeholder="Nome: "maxlength="30">
+            <h6>Email:</h6>
+            <input type="text" name="Email" class="inputavel" value="" required="true" aria-label="Email:"pattern = "\w+@\w+" placeholder="StormITSolutions.someone@example.com"maxlength="80" >
+            <h6>Celular:</h6>
+            <input type="text" name="Telefone" class="form-control phone-ddd-mask" value="" required="true" aria-label="Phone:"placeholder="Ex.: (00) 0000-0000">
+            <h6>Mensagem:</h6>
+            <textarea rows="10" cols="80" type="Mensage" name="Mensagem" class="Mensagem" value="" required="true" aria-label="Escreva a sua Menssagem:"placeholder="Mensagem..." maxlength="350"></textarea>
+            <input type="submit" name="Enviar" onclick="myFunction()" value="Enviar Mensagem">
+            <script text="/javaScript">
+              function myFunction() {
+                alert("Mensagem enviada com Sucesso !");
+              }
+            </script>
+          </div>
+        </section>
+      </div>
+      <div class="rodape">
+        <footer>
+          <figure class="logoRodape">
+            <a href="index.html"> <img src="../img/logos/logo.png" alt="logo"> </a>
+          </figure>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
